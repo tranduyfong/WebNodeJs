@@ -1,10 +1,11 @@
 {
-  "name": "backend",
+  "name": "backenddp",
   "version": "1.0.0",
   "description": "Backend tu hoc Duy Phong",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
   },
   "author": "Tran Duy Phong",
   "license": "ISC",
@@ -19,5 +20,13 @@
   },
   "keywords": [
     "nodejs"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranduyfong/WebNodeJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tranduyfong/WebNodeJs/issues"
+  },
+  "homepage": "https://github.com/tranduyfong/WebNodeJs#readme"
 }
